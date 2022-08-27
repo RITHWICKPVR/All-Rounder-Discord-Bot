@@ -7,7 +7,7 @@ const { stripIndents } = require("common-tags");
 
 const sqlDB = new Pool({
     user: "admin",
-    host: "3.14.66.179",
+    host: "3.15.185.160",
     database: "tecbot",
     password: "Aravi@$1234",
     port: 5432,
