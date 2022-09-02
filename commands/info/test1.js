@@ -24,14 +24,14 @@ module.exports = {
             
 
             let embed = new Discord.MessageEmbed()
-            .setTitle(`Amazon Prime Day Showdown`)
-            .setImage('https://media.discordapp.net/attachments/843706177824751656/1000006780891443260/WhatsApp_Image_2022-07-22_at_5.13.31_PM.jpeg?width=663&height=663')
+            .setTitle(`R6 Pro Series Fall`)
+            .setImage('https://media.discordapp.net/attachments/947185453289840641/1015273316405235852/1000x1000.png?width=468&height=468')
             .setFooter({text:'Click below to get access!'})
             .setColor('BLUE')
 
             const row = new MessageActionRow().addComponents(
                 new MessageButton()
-                .setCustomId('amzn-prime-day')
+                .setCustomId('fall-r6')
                 .setLabel('Get Role')
                 .setStyle('PRIMARY')
             )

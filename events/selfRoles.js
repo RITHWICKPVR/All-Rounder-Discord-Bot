@@ -55,7 +55,8 @@ const eventRolesID = [
     'comm-valo-cup-btn',
     'tec-valo-tourney',
     'tec-valo-tourney-2',
-    'amzn-prime-day'
+    'amzn-prime-day',
+    'fall-r6'
 ]
 
 client.on("interactionCreate", async (interaction) => {
@@ -123,6 +124,8 @@ client.on("interactionCreate", async (interaction) => {
 
             if (interaction.customId === 'tec-valo-tourney') role = await interaction.guild.roles.cache.find(r => r.id === '994258667010531518')
             if (interaction.customId === 'tec-valo-tourney-2') role = await interaction.guild.roles.cache.find(r => r.id === '995663204485185556')
+            //search a role using button id
+            if (interaction.customId === 'fall-r6') role = await interaction.guild.roles.cache.find(r => r.id === '1015253478941147196')
 
             
             console.log(role.name)
